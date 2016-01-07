@@ -12,5 +12,5 @@ LOOP : elle nécessite 17 périodes d'horloges pour s’exécuter.
 Les adresses du 8255:PORTA:600h, PORTB:602h, PORTC:604h, Registre de commande :606h.
 
 - **ex3:**  
- Écrire un programme pour générer un signal carré de fréquence 1.5 Khz,en utilsant seulement le temporisateur 8253 (utiliser la sortie out2).  
+ Écrire un programme pour générer un signal carré de fréquence 1.5 Khz,en utilsant seulement le temporisateur 8253 (utiliser la sortie out2),la fréquence d'horloge du timer=2Mhz. 
 Les adresses du 8253:TIMER0:40h, TIMER1:42h, TIMER2:44h, Registre de contrôle:46h.  
