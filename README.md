@@ -8,7 +8,8 @@ LOOP : elle nécessite 17 périodes d'horloges pour s’exécuter.
 
 - **ex2:**  
  Écrire une procédure appelée delay4s pour générer un délai de 4 secondes.    
- En utilsant cette procédure, Écrire un programme pour clignoter une LED (light emitting diode) connectée au port B bit3(PB3) de l'interface parallèle  8255 chaque 4 secondes.    
+ En utilsant cette procédure, Écrire un programme pour clignoter une LED (light emitting diode) connectée au port B bit3(PB3) de l'interface parallèle  8255 chaque 4 secondes.  
+la fréquence d'horloge de processeur est égale à 5 Mhz.  
 Les adresses du 8255:PORTA:600h, PORTB:602h, PORTC:604h, Registre de commande :606h.
 
 - **ex3:**  
