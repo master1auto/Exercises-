@@ -14,9 +14,9 @@ jmp cc
 hlt
 
 delay4s proc
-mov bx,1000
+mov bx,100
 ff:dec bx
-mov cx,20000
+mov cx,10000
 tt:nop
 loop tt
 cmp bx,0
